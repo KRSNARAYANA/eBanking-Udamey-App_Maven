@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Verified the DashBoard Page and Login Passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-09-15T23:01:21 IST" name="Suite" finished-at="2020-09-15T23:02:48 IST" duration-ms="87858">
+    <groups>
+    </groups>
+    <test started-at="2020-09-15T23:01:21 IST" name="Test" finished-at="2020-09-15T23:02:48 IST" duration-ms="87858">
+      <class name="com.eBankDemo.testCases.TC_Login_TC001">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.eBankDemo.testCases.TC_Login_TC001@662ac478]" started-at="2020-09-15T23:01:21 IST" name="setUp" finished-at="2020-09-15T23:01:36 IST" duration-ms="15776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_Login()[pri:0, instance:com.eBankDemo.testCases.TC_Login_TC001@662ac478]" started-at="2020-09-15T23:01:36 IST" name="TC_Login" finished-at="2020-09-15T23:02:01 IST" duration-ms="24602" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verified the DashBoard Page and Login Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eBankDemo.testCases.TC_Login_TC001@662ac478]" started-at="2020-09-15T23:02:01 IST" name="tearDown" finished-at="2020-09-15T23:02:03 IST" duration-ms="1541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eBankDemo.testCases.TC_Login_TC001 -->
+      <class name="com.eBankDemo.testCases.TC_AddCustomers_TC003">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.eBankDemo.testCases.TC_AddCustomers_TC003@6743e411]" started-at="2020-09-15T23:02:03 IST" name="setUp" finished-at="2020-09-15T23:02:11 IST" duration-ms="8394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addCustomer()[pri:0, instance:com.eBankDemo.testCases.TC_AddCustomers_TC003@6743e411]" started-at="2020-09-15T23:02:11 IST" name="addCustomer" finished-at="2020-09-15T23:02:47 IST" duration-ms="35915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.eBankDemo.testCases.TC_AddCustomers_TC003@6743e411]" started-at="2020-09-15T23:02:47 IST" name="tearDown" finished-at="2020-09-15T23:02:48 IST" duration-ms="1493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eBankDemo.testCases.TC_AddCustomers_TC003 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

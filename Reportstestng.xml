@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.eBankDemo.Utilities.ListenersClass"/>
+</listeners>
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.eBankDemo.testCases.TC_Login_TC001"/>
+      <!-- <class name="com.eBankDemo.testCases.TC_DDLogin_TC002"/> -->
+      <class name="com.eBankDemo.testCases.TC_AddCustomers_TC003"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
